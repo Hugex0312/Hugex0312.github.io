@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles_Planes.css" />
+    <link rel="icon" href="AtmosAlert_logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>AtmosAlert | Planes</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <nav class="topheader">
+      <div class="menu-icon">
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line x1="3" y1="6" x2="21" y2="6" stroke="#000" stroke-width="2" />
+          <line x1="3" y1="12" x2="21" y2="12" stroke="#000" stroke-width="2" />
+          <line x1="3" y1="18" x2="21" y2="18" stroke="#000" stroke-width="2" />
+        </svg>
+      </div>
+      <div class="logo-container">
+        <img class="logo" src="AtmosAlert_logo.png" alt="AtmosAlert" />
+        <img
+          class="logo-name"
+          src="AtmosAlert_words.png"
+          alt="AtmosAlert_name"
+        />
+      </div>
+
+      <!-- MENU HORIZONTAL -->
+      <div class="menu-container">
+        <ul class="menu-horizontal">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="beneficios.html">Beneficios</a></li>
+          <li><a href="#">Precios</a></li>
+          <li><a href="#">App</a></li>
+          <li><a href="#">Noticias</a></li>
+        </ul>
+      </div>
+
+      <!-- ICONO SVG/USUARIO -->
+      <div class="container-usuario">
+        <div class="usuario-icon">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="16"
+              cy="9"
+              r="5"
+              stroke="#464646"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <ellipse
+              cx="16"
+              cy="22.5"
+              rx="9"
+              ry="5.5"
+              stroke="#464646"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="elipse-icon">
+          <svg
+            width="41"
+            height="37"
+            viewBox="0 0 41 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M40 18.5C40 28.0709 31.3686 36 20.5 36C9.6314 36 1 28.0709 1 18.5C1 8.92911 9.6314 1 20.5 1C31.3686 1 40 8.92911 40 18.5Z"
+              stroke="black"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="user-name-container">
+        <span>Luke</span>
+      </div>
+    </nav>
+
+    <div class="config-icon">
+      <i class="fa-solid fa-gear"></i>
+    </div>
+
+    <!--CONTENIDO DE PLANES Y PRECIOS-->
+    <section class="presentacion-planes">
+      <div class="texto-contenido-planes">
+        <h2>PLANES Y PRECIOS</h2>
+        <p>
+          Estos planes buscan transmitir la sensación de proteccion, seguridad y
+          bienestar, alineados con los beneficios de la plataforma.
+        </p>
+        <button class="boton-primario-planes">Ver precios</button>
+      </div>
+      <div class="image-content-planes">
+        <img src="tierra1.png" alt="tierra_cuidado" />
+      </div>
+    </section>
+
+    <!--Barra de busqueda-->
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar..." />
+      <button class="search-btn">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="11" cy="11" r="8" stroke="#000" stroke-width="2" />
+          <line
+            x1="16.5"
+            y1="16.5"
+            x2="22"
+            y2="22"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- CONTENIDO PLANES PREMIUM PRECIO-->
+    <div class="presentacion-precio">
+      <div class="texto-contenido-precio">
+        <h2>PLANES PREMIUM</h2>
+      </div>
+
+      <div class="plan" id="plan-gratis">
+        <div class="plan-header">
+          <p>Plan Aire Seguro</p>
+          <h3>GRATIS</h3>
+        </div>
+
+        <div class="plan-body">
+          <p>
+            Proporcionamos alertas avanzadas y personalizadas en tiempo real con
+            recomendaciones de rutas y actividades rápidas según la calidad del
+            aire.
+          </p>
+        </div>
+        <button class="boton-elegir">Elegir</button>
+      </div>
+
+      <div class="plan" id="plan-mensual">
+        <div class="plan-header">
+          <p>Plan Aire Plus (Mensual)</p>
+          <h3>13.99 USD</h3>
+        </div>
+
+        <div class="plan-body">
+          <p>
+            Incluye acceso a datos precisos y alertas ultra-personalizadas, con
+            notificaciones anticipadas sobre áreas con altos niveles de
+            contaminación, acceso a una línea directa con expertos en salud
+            ambiental.
+          </p>
+        </div>
+        <button class="boton-elegir">Elegir</button>
+      </div>
+
+      <div class="plan" id="plan-anual">
+        <div class="plan-header">
+          <p>Plan Aire Puro (Anual)</p>
+          <h3>154.99 USD</h3>
+        </div>
+
+        <div class="plan-body">
+          <p>
+            Ofrece un monitoreo más detallado con informes semanales o mensuales
+            sobre la exposición a contaminantes y su impacto potencial en la
+            salud del usuario.
+          </p>
+        </div>
+        <button class="boton-elegir">Elegir</button>
+      </div>
+    </div>
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-suscribirse">
+          <h3>¡Suscríbete!</h3>
+          <p>
+            Para recibir nuestras noticias, novedades y acceder a nuestros
+            Beneficios
+          </p>
+          <form>
+            <input type="text" placeholder="Ingresa tu email" />
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Páginas útiles</h4>
+            <ul>
+              <li><a href="#">Recursos</a></li>
+              <li><a href="#">Ayuda</a></li>
+              <li><a href="#">Privacidad</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contáctanos</h4>
+            <ul>
+              <li>
+                Email:
+                <a href="mailto:atmosalert@gmail.com">atmosalert@gmail.com</a>
+              </li>
+              <li>Teléfono: <a href="tel:+0130381303">+01 3038 1303</a></li>
+              <li>Redes sociales: <a href="#">@AtmosAlert</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-social">
+          <h4>Redes Sociales</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © AtmosAlert | Designed by VitaAir</p>
+      </div>
+    </footer>
+  </body>
+</html>
